@@ -1,0 +1,8 @@
+README.md
+setup.py
+CodeMonitor/__init__.py
+CodeMonitor/telegram.py
+CodeMonitor.egg-info/PKG-INFO
+CodeMonitor.egg-info/SOURCES.txt
+CodeMonitor.egg-info/dependency_links.txt
+CodeMonitor.egg-info/top_level.txt

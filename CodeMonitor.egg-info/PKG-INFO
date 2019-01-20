@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: CodeMonitor
+Version: 0.0.2
+Summary: Code Monitor is a simples way to send feedback about your code to your smartphone
+Home-page: https://github.com/Lucasfrota/CodeMonitor
+Author: Lucas Frota
+Author-email: lucv.frota@gmail.com
+License: UNKNOWN
+Description: # CodeMonitor
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
