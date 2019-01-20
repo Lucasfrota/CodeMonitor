@@ -1,13 +1,19 @@
 # CodeMonitor
 
-Code Monitor is a simples way to send feedback about your code to your smartphone as a Telegram message!
+Code Monitor is a simple way to send feedback about your code to your smartphone as a Telegram message!
 
 # Set up
 
 ## Telegram side
 
 1. Open Telegram and search for CodeMonitor bot.
+
+<img src="img/search.jpg" width="30%">
+
 2. Send any message to it.
+
+<img src="img/start.jpg" width="30%">
+
 3. Once you send any message the Bot will return a message like 'Your code is: "123456789"' this is your chat code, it will be used to identify your chat on python side.
 
 ## Python side
@@ -29,13 +35,13 @@ class.
 
 ### Messenger
 
-This class allows you to send any string you want to the Telegram chat, only requiring the chat code as metioned on the Telegram side section.
+This class allows you to send any string you want to the Telegram chat, only requiring the chat code as mentioned on the Telegram side section.
 
 ```
 messenger = Messenger("123456789")
 ```
 
-When the class is instancieted it send the message "All ready!", to send your own messages do like the following code snippet.
+When the class is instantiated it send the message "All ready!", to send your own messages do like the following code snippet.
 
 ```
 messenger.send_message("your awesome message!")
