@@ -44,7 +44,7 @@ class Messenger():
 class FitMonitor(Callback):
 
     def __init__(self, conv_id):
-        super(FitMonitorCallback, self).__init__()
+        super(FitMonitor, self).__init__()
         self.messenger = Messenger(conv_id)
 
     def on_train_begin(self, logs=None):
