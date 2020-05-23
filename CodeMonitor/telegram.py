@@ -71,7 +71,7 @@ class FitMonitor(Callback):
         message = "Epoch " + str(epoch + 1) + " of " + str(self.epochs)
         
         if(self.log_keys == "all"):
-            self.log_keys = logs.keys()
+            self.log_keys = list(logs.keys())
         elif(str(type(self.log_keys)) != "<class 'list'>"):
             raise Exception("Only list objects can be used as log_kays")
             

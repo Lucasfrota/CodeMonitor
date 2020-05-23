@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="CodeMonitor",
-    version="1.0.1",
+    version="1.0.2",
     author="Lucas Frota",
     author_email="lucv.frota@gmail.com",
     description="Code Monitor is a simples way to send feedback about your code to your smartphone",
