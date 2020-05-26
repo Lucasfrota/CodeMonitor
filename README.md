@@ -57,3 +57,12 @@ model.fit(X_train, Y_train,
           validation_data = (X_test, Y_test), 
           callbacks=[FitMonitor("123456789")])
 ```
+
+In the latest version (1.0.2) it is possible to specify which of the logs of your network you want to embed in the messages that will me be sent, for instance, if you just want to send only the loss of your model you can use the parameter "log_keys" as in the following code snippet, otherwise if you want to send all of the logs you can just omit this parameter or set it equal "all".
+
+```
+model.fit(X_train, Y_train,          
+          epochs = 10,
+          validation_data = (X_test, Y_test), 
+          callbacks=[FitMonitor("123456789", log_keys=["loss"])])
+```
